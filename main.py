@@ -20,7 +20,7 @@ import argparse
 from JsonManager import JsonManager
 from GraphiteManager import GraphiteManager
 
-parser = argparse.ArgumentParser(description='This Script gets information about Freifunk Muenster')
+parser = argparse.ArgumentParser(description='This Script gets information about Freifunk Donau-Ries')
 parser.add_argument('--server', required=True, help='Server')
 parser.add_argument('--port', required=True, help='Port', default=2003)
 parser.add_argument('--socket', help='Alfred-Socket', default='/run/alfred.sock')
